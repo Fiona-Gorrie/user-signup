@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if username|length < 0 %}
+<P>Not a valid username</p>
+{% endif %}
+
+{% endblock %}
